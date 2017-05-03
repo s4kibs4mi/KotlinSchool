@@ -11,12 +11,12 @@ Type :help for help, :quit for quit
 ```
 
 #### Basic Data Types,
-* Byte
-* Short
-* Int
-* Long
-* Float
-* Double
+* Byte - { 8bit }
+* Short - { 16bit }
+* Int - { 32bit }
+* Long - { 64bit }
+* Float - { 32bit }
+* Double - { 64bit }
 * Boolean
 * Char
 * String
@@ -48,7 +48,12 @@ var x6 = a > b
 var x7 = a < b
 var x8 = a == b
 var x9 = a >= b
-var x0 = a <= b
+var x10 = a <= b
+var x11 = a < b && a > b
+var x12 = a < b || a > b
 ```
+
+You don't have to mention data type at declaration if you initialize with value.
+Otherwise you have to mention data type.
 
 ###### Brought to you by Sakib Sami
