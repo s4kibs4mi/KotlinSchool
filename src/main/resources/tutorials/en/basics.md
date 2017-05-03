@@ -39,12 +39,12 @@ println("$name lives at $address")
 
 #### Operations
 ```kotlin
-var x1 = a + b
+var x1 = a + b  // Arithmetic
 var x2 = a - b
 var x3 = a * b
 var x4 = a / b
 var x5 = a % b
-var x6 = a > b
+var x6 = a > b  // Comparison
 var x7 = a < b
 var x8 = a == b
 var x9 = a >= b
