@@ -16,5 +16,18 @@ fun main(args: Array<String>) {
 After successful installation of kotlin compiler start coding to make your hands dirty.
 
 * [Basics](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/basics.md)
+* [Controls](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/controls.md)
+* [Function](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/function.md)
+* [Others](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/others.md)
+* [Collections](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/collections.md)
+* [Class](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/class.md)
+* [Interface](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/interface.md)
+* [JSON](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/json.md)
+* [HTTP](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/http.md)
+* [Database](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/database.md)
+* [Concurrency](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/concurrency.md)
+* [Web](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/web.md)
+
+### [Android](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/android)
 
 ###### Brought to you by Sakib Sami
