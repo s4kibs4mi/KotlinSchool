@@ -7,4 +7,4 @@ KotlinSchool will help you learn kotlin easily to use in real world projects.
 
 
 <br><br><br>
-`KotlinSchool` brought to you by `Sakib Sami` | inspired by `ElixirSchool` project | Distributed by `Apache 2` License.
+`KotlinSchool` brought to you by `Sakib Sami` | inspired by `ElixirSchool` project | Distributed under `Apache 2` License.
