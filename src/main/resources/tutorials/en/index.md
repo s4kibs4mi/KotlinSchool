@@ -13,6 +13,8 @@ fun main(args: Array<String>) {
 }
 ```
 
-After successful installation of kotlin compiler move to [Basic Section](#) to make your hands dirty.
+After successful installation of kotlin compiler start coding to make your hands dirty.
+
+* [Basics](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/basics.md)
 
 ###### Brought to you by Sakib Sami
