@@ -28,6 +28,6 @@ After successful installation of kotlin compiler start coding to make your hands
 * [Concurrency](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/concurrency.md)
 * [Web](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/web.md)
 
-### [Android](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/android)
+### [Android](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/android/index.md)
 
 ###### Brought to you by Sakib Sami
