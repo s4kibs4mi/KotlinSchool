@@ -20,7 +20,6 @@ fun operations() {
     var sum = a + b
 }
 
-
 fun conditions() {
     var x = 10
     var y = 20
@@ -86,4 +85,13 @@ fun conditions() {
                 break@parent    // Exists from parent loop
         }
     }
+}
+
+// Function with no parameter & no return type
+fun function() {
+    val sum = 1 sum 2
+}
+
+infix fun Int.sum(x: Int): Int {
+    return this + x
 }
