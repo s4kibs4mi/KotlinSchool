@@ -42,7 +42,7 @@ when (x) {
     }
 }
 ```
-`when` is the replacement of `switch case`. In place of case you can also use String, Int, Double and other data types but case types must be same.
+`when` is the replacement of `switch case`. In place of case you can also use String, Int, Double and other data types but case types must be same. In above example type is `Int`.
 
 ##### Loop
 ```kotlin
