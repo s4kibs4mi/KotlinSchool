@@ -88,6 +88,18 @@ fun conditions() {
 
     var name: String? = null
     var nonNullName = name!!
+
+    var map: MutableMap<String, Int> = mutableMapOf()
+    var mutableMap = mutableMapOf<String, Int>()
+    var finalMap: Map<String, Double> = mapOf()
+
+    var age = mutableMap.put("age", 23)
+    age = mutableMap.get("age")
+    var roll = mutableMap.getOrDefault("roll", 10)
+    mutableMap.getOrPut("roll") { 10 }
+    mutableMap.toSortedMap(Comparator { o1, o2 ->
+        o1.compareTo(o2)    // Sort by value
+    })
 }
 
 // Function with no parameter & no return type
