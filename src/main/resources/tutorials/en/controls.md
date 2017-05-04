@@ -44,4 +44,28 @@ when (x) {
 ```
 `when` is the replacement of `switch case`. In place of case you can also use String, Int, Double and other data types but case types must be same.
 
+##### Loop
+```kotlin
+// array iteration through loop
+val numbers = arrayOf(1, 2, 3, 4, 5, 6, 7)  // Final list
+for (number in numbers) {
+    println(number)
+}
+
+// Loop within range
+val len = 50
+for (i in 1..len) {
+    println("$i")
+}
+
+// While loop
+while(true) {
+    println("Infinite loop")
+}
+
+do {
+    println("Infinite loop")
+} while(true)
+```
+
 ###### Brought to you by Sakib Sami

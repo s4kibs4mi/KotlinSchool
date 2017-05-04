@@ -53,4 +53,14 @@ fun conditions() {
             println("Unchecked value $x")
         }
     }
+
+    val numbers = arrayOf(1, 2, 3, 4, 5, 6, 7)
+    for (number in numbers) {
+        println(number)
+    }
+
+    val len = 50
+    for (i in 1..len) {
+        println("$i")
+    }
 }
