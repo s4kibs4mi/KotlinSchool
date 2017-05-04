@@ -64,8 +64,26 @@ fun conditions() {
         println("Index : $index, Number : $number")
     }
 
+    numbers.forEach {
+        println("$it")
+    }
+
     val len = 50
     for (i in 1..len) {
         println("$i")
+    }
+
+    // Nested loop with label
+    parent@ for (i in 1..10) {
+        child@ for (j in 1..10) {
+            if (j == 5)
+                break
+
+            if (i * j > 50)
+                break@child     // Exists from child loop
+
+            if (i == 5)
+                break@parent    // Exists from parent loop
+        }
     }
 }

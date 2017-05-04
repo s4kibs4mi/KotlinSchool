@@ -65,6 +65,27 @@ for (i in 1..len) {
     println("$i")
 }
 
+numbers.forEach {
+    println("$it")
+}
+
+// Nested loop with label
+parent@ for (i in 1..10) {
+    child@ for (j in 1..10) {
+         if (j == 5)
+            break
+
+        if (i * j > 50)
+            break@child     // Exists from child loop
+
+        if (i == 5)
+            break@parent    // Exists from parent loop
+    }
+    
+    if(i == 9)
+        break
+}
+
 // While loop
 while(true) {
     println("Infinite loop")
