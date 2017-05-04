@@ -15,6 +15,8 @@ if(x > y) {
 } else {
     println("$x is less than $y")
 }
+
+var value = if (x > y) x else y
 ```
 
 ##### when
@@ -52,6 +54,11 @@ for (number in numbers) {
     println(number)
 }
 
+// Loop with index
+for ((index, number) in numbers.withIndex()) {
+    println("Index : $index, Number : $number")
+}
+
 // Loop within range
 val len = 50
 for (i in 1..len) {
@@ -68,4 +75,5 @@ do {
 } while(true)
 ```
 
+[Go Back](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/index.md)
 ###### Brought to you by Sakib Sami

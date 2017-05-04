@@ -56,4 +56,6 @@ var x12 = a < b || a > b
 You don't have to mention data type at declaration if you initialize with value.
 Otherwise you have to mention data type.
 
+
+[Go Back](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/index.md)
 ###### Brought to you by Sakib Sami

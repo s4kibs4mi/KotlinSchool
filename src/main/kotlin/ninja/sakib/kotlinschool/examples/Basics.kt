@@ -33,6 +33,8 @@ fun conditions() {
         println("$x less than $y")
     }
 
+    var value = if (x > y) x else y
+
     when (x) {
         10 -> {
             println("X == 10")
@@ -57,6 +59,9 @@ fun conditions() {
     val numbers = arrayOf(1, 2, 3, 4, 5, 6, 7)
     for (number in numbers) {
         println(number)
+    }
+    for ((index, number) in numbers.withIndex()) {
+        println("Index : $index, Number : $number")
     }
 
     val len = 50
