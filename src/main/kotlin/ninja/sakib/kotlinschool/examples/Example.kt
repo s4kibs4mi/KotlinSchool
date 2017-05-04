@@ -85,6 +85,9 @@ fun conditions() {
                 break@parent    // Exists from parent loop
         }
     }
+
+    var name: String? = null
+    var nonNullName = name!!
 }
 
 // Function with no parameter & no return type
