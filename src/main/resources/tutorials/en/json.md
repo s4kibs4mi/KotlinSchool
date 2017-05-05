@@ -73,6 +73,7 @@ val myJson = JsonObject()
         .add("address", myAddress)  // Adding Object
 println(myJson)
 ```
+`println` will call `toString` method of `JsonObject` which will return a representation of complete Json Object as String/Text.
 
 [Go Back](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/index.md)
 ###### Brought to you by Sakib Sami
