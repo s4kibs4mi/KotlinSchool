@@ -3,7 +3,7 @@
 ### JSON
 
 Lets play with JSON in Kotlin.
-For that we will use [minimal-json](#) an open source json library written in Java.
+For that we will use [minimal-json](https://github.com/ralfstx/minimal-json) an open source json library written in Java.
 
 #### Integrating with project,
 * Maven
@@ -38,16 +38,16 @@ val jsonText = "" +
 
 // Parsing the complete json text
 val jsonObj = Json.parse(jsonText) as JsonObject
-println(jsonObj.getString("name", "Unknown"))   // Extracting String
-println(jsonObj.getInt("age", 0))   // Extracting Int
+println(jsonObj.getString("name", "Unknown"))   // Extracting String, Output: Sakib Sami
+println(jsonObj.getInt("age", 0))   // Extracting Int, Output: 23
 
-val emails = jsonObj.get("emails").asArray()    // Extracting Array
+val emails = jsonObj.get("emails").asArray()    // Extracting Array, Output: ["s4kibs4mi@gmail.com", "sakib@nybsys.com"]
 for ((index, email) in emails.withIndex()) {
     println("${index + 1}. ${email.asString()}")    // Iterating through array
 }
 
 // Parsing nested json object which is address
-val address = jsonObj.get("address") as JsonObject
+val address = jsonObj.get("address") as JsonObject  // Extracting Json Object
 println(address.getInt("house", 0))
 println(address.getInt("road", 0))
 ```
