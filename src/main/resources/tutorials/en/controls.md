@@ -70,7 +70,7 @@ numbers.forEach {
 }
 
 // Nested loop with label
-parent@ for (i in 1..10) {
+parent@ for (i in 1..10 step 2) {
     child@ for (j in 1..10) {
          if (j == 5)
             break
