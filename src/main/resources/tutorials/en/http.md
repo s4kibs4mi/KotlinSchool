@@ -34,7 +34,7 @@ Maven,
 ```
 
 Impressive code,
-```
+```kotlin
 val params = mapOf("page" to 2.toString())  // Parameters
 val response = get("https://reqres.in/api/users", params = params)  // Send get request
 val resultAsJson = response.jsonObject
