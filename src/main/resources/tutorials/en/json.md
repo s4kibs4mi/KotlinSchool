@@ -51,7 +51,7 @@ val address = jsonObj.get("address") as JsonObject  // Extracting Json Object
 println(address.getInt("house", 0))
 println(address.getInt("road", 0))
 ```
-Json.parse `parse` method can be used in two ways. One is parse from `String` & Another is parse from `Reader`.
+Json.parse() `parse` method can be used in two ways. One is parse from `String` & Another is parse from `Reader`.
 
 #### Creating,
 Now lets create the same json text,
