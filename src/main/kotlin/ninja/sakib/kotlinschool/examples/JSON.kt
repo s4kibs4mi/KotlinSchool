@@ -55,7 +55,7 @@ fun init() {
     val myJson = JsonObject()
             .add("name", "Sakib Sami")
             .add("age", 23)
-            .add("emails", emails)
+            .add("emails", myEmails)
             .add("address", myAddress)
     println(myJson)
 }

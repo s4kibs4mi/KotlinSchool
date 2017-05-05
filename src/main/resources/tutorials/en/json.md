@@ -69,7 +69,7 @@ myEmails.add("sakib@nybsys.com")
 val myJson = JsonObject()
         .add("name", "Sakib Sami")
         .add("age", 23)
-        .add("emails", emails)  // Adding Array
+        .add("emails", myEmails)  // Adding Array
         .add("address", myAddress)  // Adding Object
 println(myJson)
 ```
