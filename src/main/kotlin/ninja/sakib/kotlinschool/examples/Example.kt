@@ -105,6 +105,14 @@ fun conditions() {
 // Function with no parameter & no return type
 fun function() {
     val sum = 1 sum 2
+
+    withDefaultValue(10)
+    withDefaultValue(10, 10)
+    withDefaultValue(10, z = "SomeText")
+}
+
+fun withDefaultValue(x: Int, y: Int = 0, z: String = "") {
+
 }
 
 infix fun Int.sum(x: Int): Int {

@@ -33,5 +33,16 @@ fun rem(x: Int, y: Int) = x % y
 val r = rem(5, 2)
 ```
 
+Function with default value
+```kotlin
+fun withDefaultValue(x: Int, y: Int = 0, z: String = "") {
+
+}
+
+withDefaultValue(10)    // Pass only required value
+withDefaultValue(10, 10)    // Pass value by order
+withDefaultValue(10, z = "SomeText")    // Pass value by name
+```
+
 [Go Back](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/index.md)
 ###### Brought to you by Sakib Sami
