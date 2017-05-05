@@ -16,9 +16,11 @@ apply plugin: 'kotlin'
 
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
     compile "com.eclipsesource.minimal-json:minimal-json:0.9.4"
+    compile 'com.github.jkcclemens:khttp:0.1.0'
 }
