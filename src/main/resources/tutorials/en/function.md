@@ -44,5 +44,26 @@ withDefaultValue(10, 10)    // Pass value by order
 withDefaultValue(10, z = "SomeText")    // Pass value by name
 ```
 
+Extension Function
+```kotlin
+fun Int.str(): String {
+    when (this) {
+        0 -> return "ZERO"
+        1 -> return "ONE"
+        2 -> return "TWO"
+        3 -> return "THREE"
+        4 -> return "FOUR"
+        5 -> return "FIVE"
+        else -> return ""
+    }
+}
+
+val x: Int = 0
+println(x.str())
+```
+Using extension function you can add function to a class, even if the class is in a third party library. You do not need to have access to the class.
+
+In above example `str()` method is avialable to object of `Int` class.
+
 [Go Back](https://github.com/s4kibs4mi/KotlinSchool/blob/master/src/main/resources/tutorials/en/index.md)
 ###### Brought to you by Sakib Sami
