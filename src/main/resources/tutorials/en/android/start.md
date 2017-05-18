@@ -94,5 +94,5 @@ this.sayHelloBtn.onClick {
 Just remember how much code you have to do in Java just to do it. Huh.
 ![](https://raw.githubusercontent.com/s4kibs4mi/KotlinSchool/master/src/main/resources/images/en/begin_step_24.png)
 
-##### 24. 
-![](https://raw.githubusercontent.com/s4kibs4mi/KotlinSchool/master/src/main/resources/images/en/begin_step_26.png)
+##### 24. Ok. Here is the output of above code.
+![](https://raw.githubusercontent.com/s4kibs4mi/KotlinSchool/master/src/main/resources/images/en/begin_step_26.jpg)
