@@ -14,11 +14,10 @@
 
 Wait till gradle build process finish.
 
-##### 5. Now Setup Koltin Plugin. If you have already installed kotlin plugin you can skip step 5 - 9. Go to Preferences.
+##### 5. Now Setup Kotlin Plugin. If you have already installed kotlin plugin you can skip step 5 - 9.Else go to Preferences.
 ![](https://raw.githubusercontent.com/s4kibs4mi/KotlinSchool/master/src/main/resources/images/en/begin_step_5.png)
 
-
-##### 6. From `Preference` select `Plugins`. Then in the search box, search for kotlin. If you don't find click on Search in repositories.
+##### 6. From `Preferences` select `Plugins`. Then in the search box, search for `kotlin`. If you don't find click on `Search in repositories`.
 ![](https://raw.githubusercontent.com/s4kibs4mi/KotlinSchool/master/src/main/resources/images/en/begin_step_6.png)
 
 ##### 7. Once you found click on `Install` to install the plugin.
