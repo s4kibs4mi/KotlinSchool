@@ -1,0 +1,26 @@
+import android.support.v7.app.AppCompatActivity
+import android.os.Bundle
+
+//following import is the replacement of  findViewById(R.id.view)
+import kotlinx.android.synthetic.main.activity_main.*
+
+//following import is for using toast
+import org.jetbrains.anko.toast
+
+class MainActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        
+        // 'hello' is the "@id/" of the view inside xml
+        hello.setText("this is kotlin text")
+        
+        // 'button' is the "@id/" of the view inside xml
+        button.setOnClickListener {
+          // to use toast add { apply plugin: 'kotlin-android-extensions' } to the project build.gradle file
+          toast("button is click!")
+        }
+
+    }
+}
